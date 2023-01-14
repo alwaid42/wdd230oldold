@@ -2,8 +2,6 @@
     main {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
-        grid-template-rows: 1fr;
-         max-width: 1130px;
     }
     
     main section:nth-child(3) {
@@ -19,4 +17,4 @@
         grid-column: 3 / 4;
         grid-row: 1;
     }
-    }
+}

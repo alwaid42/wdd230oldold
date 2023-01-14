@@ -2,6 +2,7 @@
 	h1 {
 		font-size: 2rem;
 	}
+	
 	nav a {
 		font-size: 1.1rem;
 	}
@@ -79,6 +80,7 @@ h1 {
     grid-column-end: 3;
     grid-row-start: 3;
     font-family: 'Open Sans', sans-serif;
+	font-size:3vw;
     padding-left: 25px;
     align-items: center;
     justify-content: center;
