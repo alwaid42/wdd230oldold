@@ -1,23 +1,19 @@
 *{
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
 }
 
 body{
-    font-size: 18px;
     font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
 }
 
 #logo{
-    width: 10rem;
-    height: auto;
     box-shadow: 0 0 1rem rgba(0, 0, 0, 0.4);
+    height: auto;
     margin: 1rem;
-}
-
-h1{
-    color: whitesmoke;
+    width: 10rem;
 }
 
 /* phone or baseline views **************************/
@@ -28,6 +24,7 @@ header, footer{
     align-items: center;
     justify-content: center;
     padding: .75rem;
+    border: 1px solid gray;
     border: 1px solid rgba(0, 0, 0, 0.2);
 }
 
@@ -38,10 +35,20 @@ header, main, footer{
 
 h1{
     font-size: 1.1rem;
+    color: whitesmoke;
 }
 
 h2{
     color:blue;
+}
+h1, h2, h3, h4{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 1em;
+}
+
+p{
+    font-family: Helvetica, Arial, sans-serif;
+    padding: .1em;
 }
 
 nav{
@@ -70,12 +77,12 @@ nav ul li a {
 
 main{
     display: grid;
-    grid-template-columns: 1fr;
     font-size: 0.8rem;
 }
 
 main article {
     margin: 1rem;
+    border: 1px solid gray;
     border: 1px solid rgba(0, 0, 0, 0.2);
     padding: 1rem;
     background-color: #eee;
@@ -85,7 +92,6 @@ main img {
     width: 80%;
     height: auto;
     margin: 1rem;
-    border: 1 px solid black;
 }
 
 footer p {
@@ -95,55 +101,28 @@ footer p {
     align-items: center;
 }
 
-/* Tablet Views ******************************/
-@media only screen and (min-width: 37.5em) {
-    h1{
-        font-size: 1.5rem;
-    }
-    
-    /* Horizontal Menu Examples */
-    /* Flex *********************/
-    nav ul {
-        display: flex;
-    }
-    nav ul li {
-        flex: 1 1 auto;
-    }
-
-
-    nav a {
-        font-size: 1 rem;
-    }
-
-    nav a:hover{
-        color: yellow;
-        background-color: darkblue;
-    }
-
-    main img {
-        width: 40%;
-        height: auto;
-        margin: 1rem;
-        border: 1 px solid black;
-    }
-
-    article p {
-        font-size: 1.1rem;
-        line-height: 1.5;
-    }
-
-    header, footer p{
-        flex-direction: row;
-    }
+.colors{
+    width: 100%;
+    min-width: 350px;
+    margin: auto;
+    text-align: center;
 }
-
-/* Desktop Views ****************************/
-@media only screen and (min-width: 60em) {
-    h1{
-        font-size: 2rem;
-    }
-
-    nav a {
-        font-size: 1.1rem;
-    }
+.colors th {
+    background-color: #999;
+}
+.colors td{
+    width: 25%;
+    height: 3em;
+}
+.primary {
+    background-color: #3592F0;
+}
+.secondary {
+    background-color: #023047;
+}
+.accent1 {
+    background-color: #E39A27;
+}
+.accent2 {
+    background-color: #FFB703;
 }
