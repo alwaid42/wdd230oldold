@@ -47,12 +47,4 @@
     header, footer p{
         flex-direction: row;
     }
-
-    .navigation li {
-		display: block; /* change state in small view */
-		flex: 1 1 auto;
-	}
-    .navigation li:first-child {
-        display: none;
-    }
 }
