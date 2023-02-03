@@ -1,0 +1,50 @@
+/* Tablet Views ******************************/
+@media only screen and (min-width: 37.5em) {
+    h1{
+        font-size: 1.5rem;
+    }
+
+    h2{
+        font-size: 1.3rem;
+    }
+    
+    h3{
+        font-size: 1.2rem;
+    }
+    h4{
+        font-size:1.15rem;
+    }
+    /* Horizontal Menu Examples */
+    /* Flex *********************/
+    nav ul {
+        display: flex;
+    }
+    nav ul li {
+        flex: 1 1 auto;
+    }
+
+
+    nav a {
+        font-size: 1rem;
+    }
+
+    nav a:hover{
+        color: yellow;
+        background-color: darkblue;
+    }
+
+    main img {
+        width: 40%;
+        height: auto;
+        margin: 1rem;
+    }
+
+    article p {
+        font-size: 1.1rem;
+        line-height: 1.5;
+    }
+
+    header, footer p{
+        flex-direction: row;
+    }
+}
