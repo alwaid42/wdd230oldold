@@ -112,8 +112,14 @@ nav{
     margin: 0 auto;
 }
 
-nav img{
-    height: 20px;
+header li{
+    list-style: none;
+    padding: 0.5em;
+    flex-flow: row;
+}
+
+header img{
+    height: 25px;
     width: auto;
 }
 
@@ -141,6 +147,29 @@ main article {
     border: 1px solid rgba(0, 0, 0, 0.2);
     padding: 1rem;
     background-color: #eee;
+}
+
+#firstspot {
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    margin: 0.5em;
+}
+
+#secondspot {
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    margin: 0.5em;
+}
+
+#thirdspot {
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    margin: 0.5em;
+}
+
+#thirdspot {
+    display: none;
+}
+
+#join {
+    display: none;
 }
 
 main img {
