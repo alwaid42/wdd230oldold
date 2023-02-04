@@ -50,6 +50,7 @@ footer img{
 header {
     background-color: #3592f0;
     display: flex;
+    flex-flow: column;
     align-items: center;
     justify-content: center;
     padding: .75rem;
