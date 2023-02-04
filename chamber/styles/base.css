@@ -112,10 +112,8 @@ nav{
     margin: 0 auto;
 }
 
-header li{
-    list-style: none;
+header a{
     padding: 0.5em;
-    flex-flow: row;
 }
 
 header img{
