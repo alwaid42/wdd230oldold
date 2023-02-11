@@ -26,20 +26,23 @@ footer img{
 #links{
     padding-top: 5px;
     text-align: center;
-    color: white;
+    color: black;
     font-size: 14px;
+}
+
+footer a{
+    color: yellow;
 }
 
 #signature{
     padding-top: 5px;
     text-align: center;
-    color: white;
+    color: black;
     font-size: 12px;
 }
 
 #banner {
     display: none;
-    display: absolute;
     margin-top: 0;
     background-color: #FFB703;
     text-align: center;
@@ -59,7 +62,7 @@ header {
 }
 
 .headings{
-    color: white;
+    color: yellow;
 }
 
 .navigation li:first-child {
@@ -92,7 +95,7 @@ header, main, footer{
 
 h1{
     font-size: 1.1rem;
-    color: whitesmoke;
+    color: yellow;
 }
 
 h2{
@@ -124,11 +127,16 @@ header img{
 
 nav ul li a {
     display: block;
-    color: white;
+    color: #000080;
     text-align: center;
     padding:  0.75rem;
     text-decoration: none;
     font-size: 0.95rem;
+}
+
+nav a:hover{
+    color: white;
+    background-color: darkblue;
 }
 
 .active{

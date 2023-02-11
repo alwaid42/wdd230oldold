@@ -28,11 +28,6 @@
         font-size: 1rem;
     }
 
-    nav a:hover{
-        color: yellow;
-        background-color: darkblue;
-    }
-
     main img {
         width: 40%;
         height: auto;
