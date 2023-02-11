@@ -31,7 +31,8 @@ footer img{
 }
 
 footer a{
-    color: yellow;
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
 }
 
 #signature{
@@ -62,7 +63,8 @@ header {
 }
 
 .headings{
-    color: yellow;
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
 }
 
 .navigation li:first-child {
@@ -95,7 +97,8 @@ header, main, footer{
 
 h1{
     font-size: 1.1rem;
-    color: yellow;
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
 }
 
 h2{
