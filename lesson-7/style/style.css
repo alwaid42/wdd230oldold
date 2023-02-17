@@ -1,13 +1,14 @@
 body {
     display: flex;
     flex-flow: column;
+    align-items: center;
 }
 
-picture img[data-src] {
+article img[data-src] {
     filter: blur(0.2em);
 }
   
-picture img {
+article img {
     filter: blur(0em);
     transition: filter 0.5s;
 }
