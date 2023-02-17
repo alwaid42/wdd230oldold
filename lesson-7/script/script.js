@@ -8,7 +8,7 @@ const imgOptions = {
 const loadImages = (image) => {
     image.setAttribute('src', image.getAttribute("data-src"));
     image.onLoad = () => {
-        image.removeAttribute("data-src")
+        image.removeAttribute("data-src");
     };
 };
 
